@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="users")
+@Table(name="kullancılar")
 public class User { //veri tabanında tutacağımız kullanıcı bilgilerini temsil edcek
     @Id
     @GeneratedValue
